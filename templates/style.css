@@ -1,8 +1,3 @@
-location /subdomain/static)/  
-{
-root    /opt/apps/content_folder/static;
-}
-
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
 body
@@ -140,7 +135,7 @@ border-bottom : solid 1px #ededed;
 {
 width : auto;
 overflow : auto;
-border-bootom :solid 1px #ededed;
+border-bottom :solid 1px #ededed;
 }
 
 .cc_news
@@ -167,7 +162,7 @@ text-align  :center;
 border-radius :2px;
 }
 
-.cc_news a: hover
+.cc_news a:hover
 {
 background : #61c9df;
 }
